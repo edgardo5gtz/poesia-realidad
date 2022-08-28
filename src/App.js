@@ -9,7 +9,9 @@ function App() {
         <a href="#">Fotografias</a>
         <a href="#">Poesia</a>
       </div>
-      <div className="center-image">asdfas</div>
+      <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+        Jorge Gutierrez Torres
+      </div>
     </div>
   );
 }
