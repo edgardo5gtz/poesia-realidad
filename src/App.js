@@ -1,27 +1,26 @@
-import { Link, Outlet } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Bibliography from "./routes/Bibliography";
+import Photos from "./routes/Photos";
+import Poetry from "./routes/Poetry";
+import Prologue from "./routes/Prologue";
 import Title from "./routes/Title";
+import Sidebar from "./Sidebar";
 
-const App = () => (
-  <>
-    <nav className="fixed h-full z-1 top-0 left-0 pt-14">
-      <Link className="block p-2 pl-8" to="/prologo">
-        Prólogo
-      </Link>
-      <Link className="block p-2 pl-8" to="/bibliografia">
-        Bibliografía del autor
-      </Link>
-      <Link className="block p-2 pl-8" to="/fotografias">
-        Fotografias
-      </Link>
-      <Link className="block p-2 pl-8" to="/poesia">
-        Poesia
-      </Link>
-    </nav>
-    <Title />
-    <div className="container mx-auto">
-      <Outlet />
+const App = () => {
+  return (
+    <div className="flex items-stretch h-full w-full">
+      <Sidebar />
+      <div className="flex flex-col h-full w-full">
+        <Routes>
+          <Route path="/" element={<Title />} />
+          <Route path="/prologo" element={<Prologue />} />
+          <Route path="/bibliografia" element={<Bibliography />} />
+          <Route path="/poesia" element={<Poetry />} />
+          <Route path="/fotografias" element={<Photos />} />
+        </Routes>
+      </div>
     </div>
-  </>
-);
+  );
+};
 
 export default App;
