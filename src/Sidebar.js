@@ -24,6 +24,9 @@ const Sidebar = () => {
           </button>
         </div>
         <nav className="pt-4">
+          <Link className="block p-2 pl-8" to="/">
+            Inicio
+          </Link>
           <Link className="block p-2 pl-8" to="/prologo">
             Prologo
           </Link>

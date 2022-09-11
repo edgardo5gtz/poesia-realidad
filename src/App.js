@@ -18,6 +18,9 @@ const App = () => {
           <Route path="/poesia" element={<Poetry />} />
           <Route path="/fotografias" element={<Photos />} />
         </Routes>
+        <footer className="flex self-end w-full justify-center">
+          <div>© Copyright 2022</div>
+        </footer>
       </div>
     </div>
   );
