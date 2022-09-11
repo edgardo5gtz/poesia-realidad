@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Bibliography from "./routes/Bibliography";
+import Biography from "./routes/Biography";
 import Photos from "./routes/Photos";
 import Poetry from "./routes/Poetry";
 import Prologue from "./routes/Prologue";
@@ -14,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Title />} />
           <Route path="/prologo" element={<Prologue />} />
-          <Route path="/bibliografia" element={<Bibliography />} />
+          <Route path="/bibliografia" element={<Biography />} />
           <Route path="/poesia" element={<Poetry />} />
           <Route path="/fotografias" element={<Photos />} />
         </Routes>

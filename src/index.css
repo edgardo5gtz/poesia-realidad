@@ -17,6 +17,12 @@ body {
   background-size: cover;
 }
 
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 2;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

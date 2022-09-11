@@ -1,6 +1,6 @@
 const Page = ({ title, content }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col h-full w-full">
       <div className="my-8">
         <h1 className="text-center ">{title}</h1>
       </div>

@@ -1,13 +1,13 @@
 import Page from "../Page";
 
-const Bibliography = () => (
+const Biography = () => (
   <Page
     title={"Biografia e Historia del Autor"}
-    content={<BibliographyContent />}
+    content={<BiographyContent />}
   />
 );
 
-const BibliographyContent = () => (
+const BiographyContent = () => (
   <>
     Naci en Guadalajara, Jalisco un dia 18 de Marzo de 1934 en la calle de Juan
     Alvarez 818 Barrio del Capilla de Jesús, hijo de Enrique Gutierrez Alvarez y
@@ -17,4 +17,4 @@ const BibliographyContent = () => (
   </>
 );
 
-export default Bibliography;
+export default Biography;
