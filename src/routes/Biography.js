@@ -1,4 +1,3 @@
-import Page from "../Page";
 import Portrait from "../img/portrait.png";
 
 const Biography = () => (
