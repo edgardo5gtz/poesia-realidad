@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Biography from "./routes/Biography";
 import Photos from "./routes/Photos";
 import Poetry from "./routes/Poetry";
@@ -14,9 +14,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Title />} />
           <Route path="/prologo" element={<Prologue />} />
-          <Route path="/bibliografia" element={<Biography />} />
+          <Route path="/biografia" element={<Biography />} />
           <Route path="/poesia" element={<Poetry />} />
           <Route path="/fotografias" element={<Photos />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <footer className="flex self-end w-full justify-center">
           <div>© Copyright 2022</div>

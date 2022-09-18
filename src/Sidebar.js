@@ -28,10 +28,10 @@ const Sidebar = () => {
             Inicio
           </Link>
           <Link className="block p-2 pl-8" to="/prologo">
-            Prologo
+            Prólogo
           </Link>
-          <Link className="block p-2 pl-8" to="/bibliografia">
-            Bibliografía del autor
+          <Link className="block p-2 pl-8" to="/biografia">
+            Biografía
           </Link>
           <Link className="block p-2 pl-8" to="/fotografias">
             Fotografias

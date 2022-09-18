@@ -1,7 +1,5 @@
-const Poetry = () => (
-  <div className="my-8">
-    <h1 className="text-center ">Poesia</h1>
-  </div>
-);
+import Page from "../Page";
+
+const Poetry = () => <Page title={"Poesia"} content={"TBD"} />;
 
 export default Poetry;
