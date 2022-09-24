@@ -104,7 +104,7 @@ const poems = {
     footer: "J.G.T. Julio de 1961",
   },
   "la-invacion-a-cuba": {
-    title: "La Invasión a Cuba.",
+    title: "La Invasión A Cuba.",
     body: `
     Es que a Cuba ya llegó<br/>
     la invasión premeditada<br/>
@@ -232,7 +232,7 @@ const poems = {
     footer: "J.G.T. Enero de 1964 ",
   },
   tormenta: {
-    title: "El Infinito Incierto",
+    title: "Tormenta",
     body: `
     Nubarrones que giran<br/>
     como laberinto...<br/>
@@ -256,7 +256,7 @@ const poems = {
     footer: "J.G.T. Noviembre de 1966 ",
   },
   "sonar-con-los-ojos-abiertos": {
-    title: "Soñar con los Ojos Abiertos",
+    title: "Soñar Con Los Ojos Abiertos",
     body: `
     Quiero soñar con los ojos abiertos<br/>
     soñar... cuando gime el viento<br/>
@@ -296,7 +296,7 @@ const poems = {
     footer: "J.G.T. Febrero 20 de 1967 ",
   },
   "el-poder-del-amo": {
-    title: "El Poder del Amo",
+    title: "El Poder Del Amo",
     body: `
     Ya no corre el río ... ya no suena el agua<br/>
     ya las aves no han pasado<br/>
@@ -648,7 +648,7 @@ const poems = {
     footer: "J.G.T. 1977 ",
   },
   "carta-a-mi-madre": {
-    title: "Carta a mi madre",
+    title: "Carta A Mi madre",
     body: `
     Mañana que es tu día, recibirás mi carta<br/>
     que es por ahora todo lo que te puedo dar<br/>
@@ -800,7 +800,7 @@ const poems = {
     footer: "J.G.T. 1981",
   },
   "ten-compasion-de-mi": {
-    title: "Ten Compasión de Mî",
+    title: "Ten Compasión De Mî",
     body: `
     Cuan largas han sido las noches ...<br/>
     cuan eternas las horas ... sin poder saber de ti.<br/>
@@ -943,44 +943,44 @@ const titles = [
   { name: "La Poesía", link: "la-poesia" },
   { name: "El Amor", link: "el-amor" },
   { name: "Ausencia", link: "ausencia" },
-  { name: "Pienso en Ti", link: "pienso-en-ti" },
-  { name: "Brilla una estrella", link: "brilla-una-estrella" },
-  { name: "La invación a Cuba", link: "la-invacion-a-cuba" },
+  { name: "Pienso En Ti", link: "pienso-en-ti" },
+  { name: "Brilla Una Estrella", link: "brilla-una-estrella" },
+  { name: "La Invación a Cuba", link: "la-invacion-a-cuba" },
   { name: "Duerme", link: "duerme" },
-  { name: "Los muertos", link: "los-muertos" },
-  { name: "El infinito incierto", link: "el-infinito-incierto" },
+  { name: "Los Muertos", link: "los-muertos" },
+  { name: "El Infinito incierto", link: "el-infinito-incierto" },
   { name: "Tormenta", link: "tormenta" },
-  { name: "Soñar con los ojos abiertos", link: "sonar" },
+  { name: "Soñar Con Los Ojos Abiertos", link: "sonar" },
   { name: "Recuerdos", link: "recuerdos" },
-  { name: "El poder del amo", link: "el-poder-del-amo" },
+  { name: "El Poder Del Amo", link: "el-poder-del-amo" },
   { name: "Te quiero", link: "te-quiero" },
-  { name: "Al mar", link: "al-mar" },
-  { name: "La primera vez", link: "la-primera-vez" },
+  { name: "Al Mar", link: "al-mar" },
+  { name: "La Primera Vez", link: "la-primera-vez" },
   { name: "Viva Cristo Rey", link: "viva-cristo-rey" },
   { name: "Grijalva", link: "grijalva" },
-  { name: "Quién eres tu", link: "quien-eres-tu" },
-  { name: "Quién soy yo", link: "quien-soy-yo" },
+  { name: "Quién Eres Tu", link: "quien-eres-tu" },
+  { name: "Quién Soy Yo", link: "quien-soy-yo" },
   { name: "Mariana", link: "mariana" },
   { name: "Ofrenda", link: "ofrenda" },
-  { name: "Sin ti", link: "sin-ti" },
+  { name: "Sin Ti", link: "sin-ti" },
   { name: "El árbol", link: "el-arbol" },
   { name: "Madre", link: "madre" },
-  { name: "A mi madre", link: "a-mi-madre" },
-  { name: "Carta a mi madre", link: "carta-a-mi-madre" },
-  { name: "Sin final", link: "sin-final" },
+  { name: "A Mi Madre", link: "a-mi-madre" },
+  { name: "Carta A Mi Madre", link: "carta-a-mi-madre" },
+  { name: "Sin Final", link: "sin-final" },
   {
     name: "Al Sr. Licenciado Carlos Ramírez Ladewig",
     link: "al-senor-licenciado-carlos-ramirez-ladewig",
   },
-  { name: "Una esperanza", link: "una-esperanza" },
-  { name: "Te fuiste", link: "te-fuiste" },
-  { name: "Ten compasión de mí", link: "ten-compasion-de-mi" },
+  { name: "Una Esperanza", link: "una-esperanza" },
+  { name: "Te Fuiste", link: "te-fuiste" },
+  { name: "Ten Compasión De Mí", link: "ten-compasion-de-mi" },
   {
     name: "La Obscuridad Y La Luz Poema A Un Cometa",
     link: "la-obscuridad-y-la-luz-poema-a-un-cometa",
   },
-  { name: "Nada puedo hacer", link: "nada-puedo-hacer" },
-  { name: "La lluvia y tu", link: "la-lluvia-y-tu" },
+  { name: "Nada Puedo Hacer", link: "nada-puedo-hacer" },
+  { name: "La Lluvia Y Tu", link: "la-lluvia-y-tu" },
   { name: "Llanto", link: "llanto" },
 ];
 
