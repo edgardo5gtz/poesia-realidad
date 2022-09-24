@@ -24,9 +24,6 @@ const App = () => {
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-        <footer className="flex self-end w-full justify-center">
-          <div>© Copyright 2022</div>
-        </footer>
       </div>
     </div>
   );

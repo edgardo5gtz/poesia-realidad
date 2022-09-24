@@ -1,6 +1,9 @@
 import { Outlet } from "react-router-dom";
-import Page from "../Page";
 
-const Poetry = () => <Page title={""} content={<Outlet />} />;
+const Poetry = () => (
+  <div className="flex flex-col">
+    <div className="mt-24 mb-8 px-36">{<Outlet />}</div>
+  </div>
+);
 
 export default Poetry;
