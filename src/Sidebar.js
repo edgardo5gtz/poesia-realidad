@@ -11,14 +11,14 @@ const Sidebar = () => {
     <>
       <div
         className={classnames(
-          "flex flex-col pt-4 transition-appear duration-500 ease-linear",
+          "absolute h-full pt-4 transition-appear duration-500 ease-linear",
           {
-            "basis-72 overflow-x-auto": showNavBar,
-            "basis-0 overflow-x-hidden": !showNavBar,
+            "w-52 overflow-x-auto": showNavBar,
+            "w-0 overflow-x-hidden": !showNavBar,
           }
         )}
       >
-        <div className="self-end">
+        <div className="flex justify-end">
           <button onClick={() => setShowNavbar(false)}>
             <img className="max-h-6" src={CloseIcon} alt="" />
           </button>

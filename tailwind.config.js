@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       transitionProperty: {
-        appear: "flex-basis, overflow-x",
+        appear: "width, overflow-x",
       },
     },
   },

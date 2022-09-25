@@ -4,7 +4,7 @@ const Page = ({ title, content }) => {
       <div className="my-8">
         <h1 className="text-center ">{title}</h1>
       </div>
-      <div className="my-8 px-36">{content}</div>
+      <div className="my-8 px-56">{content}</div>
     </div>
   );
 };
