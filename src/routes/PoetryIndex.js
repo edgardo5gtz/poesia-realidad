@@ -3,7 +3,6 @@ import { getTitles } from "../data/poems";
 
 const PoetryIndex = () => {
   const titles = getTitles();
-  console.log({ titles });
   return (
     <nav className="flex flex-col items-center">
       {titles.map((title) => {
