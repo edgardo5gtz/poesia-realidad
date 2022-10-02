@@ -3,7 +3,7 @@ const Biography = () => (
     <div className="my-8">
       <h1 className="text-center ">Biografia e Historia del Autor</h1>
     </div>
-    <div className="my-8 px-56">
+    <div className="my-8 px-12 sm:px-56">
       <p>
         Nací en Guadalajara, Jalisco un día 18 de Marzo de 1934 en la calle de
         Juan Álvarez 818 Barrio de la Capilla de Jesús, hijo de Enrique

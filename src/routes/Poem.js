@@ -23,16 +23,16 @@ const Poem = () => {
         <div className="my-8">{parse(currentPoem.body)}</div>
         <div className="my-8">{parse(currentPoem.footer)}</div>
       </div>
-      <div className="flex justify-around">
+      <div className="flex justify-between mt-8">
         <Link
-          className="block p-2 pl-8"
+          className="text-center"
           to={`/poesia/${previousPoem.link}`}
           key={previousPoem.link}
         >
           {previousPoem.name}
         </Link>
         <Link
-          className="block p-2 pl-8"
+          className="text-center"
           to={`/poesia/${nextPoem.link}`}
           key={nextPoem.link}
         >

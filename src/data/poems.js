@@ -103,8 +103,8 @@ const poems = {
     brilla... una estrella.`,
     footer: "J.G.T. Julio de 1961",
   },
-  "la-invacion-a-cuba": {
-    title: "La Invasión A Cuba.",
+  "la-invasion-a-cuba": {
+    title: "La Invasión A Cuba",
     body: `
     Es que a Cuba ya llegó<br/>
     la invasión premeditada<br/>
@@ -447,7 +447,7 @@ const poems = {
     footer: "J.G.T. Marzo 14 de 1970 ",
   },
   "quien-eres-tu": {
-    title: "Quien Eres Tú",
+    title: "Quién Eres Tu",
     body: `
     Que tiene tu pelo largo<br/>
     que tienen tus ojos negros<br/>
@@ -461,7 +461,7 @@ const poems = {
     footer: "J.G.T. Julio 19 de 1971",
   },
   "quien-soy-yo": {
-    title: "Quien Soy Yo",
+    title: "Quién Soy Yo",
     body: `
     Quien fuiste tú<br/>
     <br/>
@@ -648,7 +648,7 @@ const poems = {
     footer: "J.G.T. 1977 ",
   },
   "carta-a-mi-madre": {
-    title: "Carta A Mi madre",
+    title: "Carta A Mi Madre",
     body: `
     Mañana que es tu día, recibirás mi carta<br/>
     que es por ahora todo lo que te puedo dar<br/>
@@ -800,7 +800,7 @@ const poems = {
     footer: "J.G.T. 1981",
   },
   "ten-compasion-de-mi": {
-    title: "Ten Compasión De Mî",
+    title: "Ten Compasión De Mí",
     body: `
     Cuan largas han sido las noches ...<br/>
     cuan eternas las horas ... sin poder saber de ti.<br/>
@@ -945,15 +945,15 @@ const titles = [
   { name: "Ausencia", link: "ausencia" },
   { name: "Pienso En Ti", link: "pienso-en-ti" },
   { name: "Brilla Una Estrella", link: "brilla-una-estrella" },
-  { name: "La Invación a Cuba", link: "la-invacion-a-cuba" },
+  { name: "La Invasión A Cuba", link: "la-invasion-a-cuba" },
   { name: "Duerme", link: "duerme" },
   { name: "Los Muertos", link: "los-muertos" },
-  { name: "El Infinito incierto", link: "el-infinito-incierto" },
+  { name: "El Infinito Incierto", link: "el-infinito-incierto" },
   { name: "Tormenta", link: "tormenta" },
-  { name: "Soñar Con Los Ojos Abiertos", link: "sonar" },
+  { name: "Soñar Con Los Ojos Abiertos", link: "sonar-con-los-ojos-abiertos" },
   { name: "Recuerdos", link: "recuerdos" },
   { name: "El Poder Del Amo", link: "el-poder-del-amo" },
-  { name: "Te quiero", link: "te-quiero" },
+  { name: "Te Quiero", link: "te-quiero" },
   { name: "Al Mar", link: "al-mar" },
   { name: "La Primera Vez", link: "la-primera-vez" },
   { name: "Viva Cristo Rey", link: "viva-cristo-rey" },
@@ -963,7 +963,7 @@ const titles = [
   { name: "Mariana", link: "mariana" },
   { name: "Ofrenda", link: "ofrenda" },
   { name: "Sin Ti", link: "sin-ti" },
-  { name: "El árbol", link: "el-arbol" },
+  { name: "El Árbol", link: "el-arbol" },
   { name: "Madre", link: "madre" },
   { name: "A Mi Madre", link: "a-mi-madre" },
   { name: "Carta A Mi Madre", link: "carta-a-mi-madre" },
@@ -980,7 +980,7 @@ const titles = [
     link: "la-obscuridad-y-la-luz-poema-a-un-cometa",
   },
   { name: "Nada Puedo Hacer", link: "nada-puedo-hacer" },
-  { name: "La Lluvia Y Tu", link: "la-lluvia-y-tu" },
+  { name: "La Lluvia Y Tú", link: "la-lluvia-y-tu" },
   { name: "Llanto", link: "llanto" },
 ];
 

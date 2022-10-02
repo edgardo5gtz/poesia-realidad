@@ -8,7 +8,7 @@ const PoetryIndex = () => {
       {titles.map((title) => {
         return (
           <Link
-            className="block p-2 pl-8"
+            className="block p-2 pl-8 text-center"
             to={`/poesia/${title.link}`}
             key={title.link}
           >
