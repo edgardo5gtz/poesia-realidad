@@ -26,7 +26,7 @@ const App = () => {
         </div>
       </div>
       <footer className="flex justify-center">
-        <span>Derechos reservados ©</span>
+        <span>Todos Los Derechos Reservados © 2022 Jorge Gutierrez Torres</span>
       </footer>
     </>
   );
