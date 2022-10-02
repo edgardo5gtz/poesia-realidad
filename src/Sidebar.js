@@ -36,6 +36,9 @@ const Sidebar = () => {
           <Link className="block p-2 pl-8" to="/poesia">
             Poesia
           </Link>
+          <Link className="block p-2 pl-8" to="/">
+            Acerca
+          </Link>
         </nav>
       </div>
       <button
